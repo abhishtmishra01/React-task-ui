@@ -9,50 +9,50 @@ const Sidebar = () => {
     >
       <div className="header flex justify-between items-center">
         <div className="flex justify-center items-center gap-2">
-          <i class="ri-tv-2-fill text-2xl text-violet-300"></i>{" "}
+          <i className="ri-tv-2-fill text-2xl text-violet-300"></i>{" "}
           <span className="font-bold text-xl">Drameeo</span>
         </div>
-        <i class="ri-menu-fold-2-line text-gray-400"></i>
+        <i className="ri-menu-fold-2-line text-gray-400"></i>
       </div>
       <div className="btns-wrapper flex flex-col py-6 gap-4 text-gray-400 border-b border-gray-600">
-        <Button icon={<i class="text-xl ri-home-4-fill"></i>} text="Home" />
+        <Button icon={<i className="text-xl ri-home-4-fill"></i>} text="Home" />
         <Button
-          icon={<i class="text-xl ri-compass-discover-fill"></i>}
+          icon={<i className="text-xl ri-compass-discover-fill"></i>}
           text="Explore"
         />
         <Button
-          icon={<i class="text-xl ri-terminal-box-fill"></i>}
+          icon={<i className="text-xl ri-terminal-box-fill"></i>}
           text="Genres"
         />
         <Button
-          icon={<i class="text-xl ri-heart-add-fill"></i>}
+          icon={<i className="text-xl ri-heart-add-fill"></i>}
           text="Faviourate"
         />
       </div>
       <div className="btns-wrapper flex flex-col py-6 gap-4 text-gray-400 border-b border-gray-600">
         <Button
-          icon={<i class="text-xl ri-play-large-line"></i>}
+          icon={<i className="text-xl ri-play-large-line"></i>}
           text="Continue Watching"
         />
         <Button
-          icon={<i class="text-xl ri-time-line"></i>}
+          icon={<i className="text-xl ri-time-line"></i>}
           text="Recent Added"
         />
         <Button
-          icon={<i class="text-xl ri-folders-fill"></i>}
+          icon={<i className="text-xl ri-folders-fill"></i>}
           text="My Collections"
         />
         <Button
-          icon={<i class="text-xl ri-arrow-down-line"></i>}
+          icon={<i className="text-xl ri-arrow-down-line"></i>}
           text="Download"
         />
       </div>
       <div className="btns-wrapper flex flex-col py-6 gap-4 text-gray-400 not-last:border-b border-gray-600">
-        <Button icon={<i class="ri-tools-fill text-xl"></i>} text="Settings" />
+        <Button icon={<i className="ri-tools-fill text-xl"></i>} text="Settings" />
       </div>
       <div className="absolute bottom-5 text-gray-400">
         <Button
-          icon={<i class="text-lg  ri-logout-box-r-line"></i>}
+          icon={<i className="text-lg  ri-logout-box-r-line"></i>}
           text="Logout"
         />
       </div>
